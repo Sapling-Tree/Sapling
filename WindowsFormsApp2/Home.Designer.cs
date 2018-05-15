@@ -36,6 +36,7 @@
             this.metroTile7 = new MetroFramework.Controls.MetroTile();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.lblHelp = new MetroFramework.Controls.MetroLabel();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tileSchedule
@@ -136,11 +137,21 @@
             this.lblHelp.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.lblHelp.UseStyleColors = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(280, 291);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 337);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblHelp);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroTile7);
@@ -168,5 +179,6 @@
         private MetroFramework.Controls.MetroTile metroTile7;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel lblHelp;
+        private System.Windows.Forms.Button button1;
     }
 }
